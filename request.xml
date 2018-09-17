@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+	<soap12:Body>
+		<MakeRequest
+			xmlns="http://www.goglobal.travel/">
+			<requestType>11</requestType>
+			<xmlRequest>
+				<![CDATA[
+					<Root>
+						<Header>
+							<Agency>1521562</Agency>
+							<User>BTIBHMSXML</User>
+							<Password>CHU7RUTH9W</Password>
+							<Operation>HOTEL_SEARCH_REQUEST</Operation>
+							<OperationType>Request</OperationType>
+							<SearchGuid return='false'></SearchGuid>
+						</Header>
+						<Main Version="2" ResponseFormat="JSON">
+							<SortOrder>1</SortOrder>
+							<FilterPriceMin>0</FilterPriceMin>
+							<FilterPriceMax>10000</FilterPriceMax>
+							<MaximumWaitTime>30</MaximumWaitTime>
+							<MaxResponses>1000</MaxResponses>
+							<FilterRoomBasises>
+								<FilterRoomBasis></FilterRoomBasis>
+							</FilterRoomBasises>
+							<HotelName></HotelName>
+							<Apartments>false</Apartments>
+							<CityCode>##CityCode##</CityCode>
+							<Hotels>
+								<HotelID>##HotelID##</HotelID>
+							</Hotels>
+							<ArrivalDate>##ArrivalDate##</ArrivalDate>
+							<Nights>##Nights##</Nights>
+							<Rooms>
+								<Room Adults="1" RoomCount="1" ></Room>
+							</Rooms>
+						</Main>
+					</Root>
+				]]>
+			</xmlRequest>
+		</MakeRequest>
+	</soap12:Body>
+</soap12:Envelope>
