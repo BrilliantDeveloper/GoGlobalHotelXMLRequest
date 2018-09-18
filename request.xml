@@ -31,12 +31,12 @@
 							<Apartments>false</Apartments>
 							<CityCode>##CityCode##</CityCode>
 							<Hotels>
-								<HotelID>##HotelID##</HotelID>
+								<HotelId>##HotelID##</HotelId>
 							</Hotels>
 							<ArrivalDate>##ArrivalDate##</ArrivalDate>
 							<Nights>##Nights##</Nights>
 							<Rooms>
-								<Room Adults="1" RoomCount="1" ></Room>
+								<Room Adults="2" RoomCount="1" ></Room>
 							</Rooms>
 						</Main>
 					</Root>
